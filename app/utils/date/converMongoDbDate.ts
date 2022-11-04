@@ -1,0 +1,1 @@
+export const ConvertMongoDate = (date: string) => new Date(date).toLocaleDateString('ru');
